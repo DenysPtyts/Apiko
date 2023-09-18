@@ -2,7 +2,7 @@ console.log("Task №1");
 
 function printPowsOf2(number) {
 
-    if (number !== parseInt(number)) {
+    if (typeof number !== "number") {
         console.log("incorrect type");
     }
 
