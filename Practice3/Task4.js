@@ -5,11 +5,10 @@ const dog = {
     greet: function() {
 
         setTimeout(() => {
-            console.log(this.sound)
-        },0)
+            console.log(this.sound);
+        }, 0);
         
     }
-}
-    
+};
+
 dog.greet();
-console.log("-----------------------");

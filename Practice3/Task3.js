@@ -15,4 +15,4 @@ const cat = {
 };
 
 cat.greet();
-console.log("-----------------------");
+console.log("-----------------------"); 
