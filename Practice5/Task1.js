@@ -1,3 +1,7 @@
+// 1) Створити ф-ію конструктор Calculator та до її прототипу добавити два методи sum(a,b) та subtract(a,b)
+// 2) Створити ф-ію конструктор AdvancedCalculator (наслідує методи від Calculator) та до її 
+// прототипу добавити два методи multiply(a,b) та divide(a,b)
+
 function Calculator() {
     this.sum = (a, b) => a + b;
     this.subtract = (a, b) => a - b;
